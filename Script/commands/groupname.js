@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "groupname",
 	version: "1.0.0", 
 	hasPermssion: 0,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+	credits: "HungCatMoi",
 	description: "Rename your group",
 	commandCategory: "Box", 
 	usages: "groupname [name]", 
@@ -11,7 +11,8 @@ module.exports.config = {
 };
 
 module.exports.run = async function({ api, event, args }) {
-	var name = args.join(" ")
-	if (!name) api.sendMessage("❌ You have not entered the group name you want to change", event.threadID, event.messageID)
+	var name = args.join("")
+	if (!name) api.sendMessage("❌ You have not entered the group name you want to change Example #groupname [text name new gc]", event.threadID, event.messageID)
 	else api.setTitle(name, event.threadID, () => api.sendMessage(`🔨 The bot changed the group name to: ${name}`, event.threadID, event.messageID));
 }
+

@@ -1,21 +1,26 @@
+const sendWaiting = true; // enable or disable sending "images in progress, please wait...";
+const textWaiting = "Image initialization, please wait a moment";
+const fonts = "/cache/Play-Bold.ttf"
+const downfonts = "https://drive.google.com/u/0/uc?id=1uni8AiYk7prdrC7hgAmezaGTMH5R8gW8&export=download"
+const fontsLink = 20
+const fontsInfo = 28
+const colorName = "#00FFFF"
+
 module.exports.config = {
-	name: "fbpost",
-	version: "1.0.1",
-	hasPermssion: 0,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
-	description: "tweet",
-	commandCategory: "Edit-img",
-	usages: "phub [text]",
-	cooldowns: 10,
-dependencies: {"canvas": "",
- "axios": ""}
+  name: "fbpost",
+  version: "7.3.1",
+  hasPermssion: 0,
+  credits: "John Lester",
+  description: "Facebook Post",
+  commandCategory: "Edit-Img",
+  usages: "text",
+  cooldowns: 5,
+  dependencies: {
+    "canvas": "",
+    "axios": "",
+    "fs-extra": "",
+  },
 };
-module.exports.circle = async (image) => {
-    const jimp = global.nodemodule["jimp"];
-  image = await jimp.read(image);
-  image.circle();
-  return await image.getBufferAsync("image/png");
-}
 module.exports.wrapText = (ctx, text, maxWidth) => {
 	return new Promise(resolve => {
 		if (ctx.measureText(text).width < maxWidth) return resolve([text]);
@@ -45,51 +50,80 @@ module.exports.wrapText = (ctx, text, maxWidth) => {
 	});
 } 
 
-module.exports.run = async function({ api, event, args, client, __GLOBAL }) {
-	let { senderID, threadID, messageID } = event;
- /* if (!args[0]) { var uid = senderID}
+module.exports.circle = async (image) => {
+  const jimp = global.nodemodule["jimp"];
+  image = await jimp.read(image);
+  image.circle();
+  return await image.getBufferAsync("image/png");
+}
+module.exports.run = async function ({ api, event, args, Users }) {
+  let { senderID, threadID, messageID } = event;
+  const { loadImage, createCanvas } = require("canvas");
+  const request = require('request');
+  const fs = global.nodemodule["fs-extra"];
+  const axios = global.nodemodule["axios"];
+  const Canvas = global.nodemodule["canvas"];
+  let pathImg = __dirname + `/cache/fbv1.png`;
+  let pathAvata = __dirname + `/cache/fbv2.png`;
+  var text = args.join(" ");
+	if (!text) return api.sendMessage("Enter the content of the comment on the board", threadID, messageID);
+  /*                 */
   if(event.type == "message_reply") { uid = event.messageReply.senderID }
-  if (args.join().indexOf('@') !== -1){ var uid = Object.keys(event.mentions) } */
-	const { loadImage, createCanvas } = require("canvas");
-	const fs = require("fs-extra");
-	const axios = require("axios")
-	let avatar = __dirname + '/cache/avt.png';
-	let pathImg = __dirname + '/cache/porn.png';
-	var text = args.join(" ");
-	const res = await api.getUserInfoV2(event.senderID);
-	if (!text) return api.sendMessage(`Wrong format\nUse: ${global.config.PREFIX}${this.config.name} text`, threadID, messageID);
-	let getAvatar = (await axios.get(res.avatar, { responseType: 'arraybuffer' })).data;
-	let getPorn = (await axios.get(`https://i.imgur.com/VrcriZF.jpg`, { responseType: 'arraybuffer' })).data;
-	fs.writeFileSync(avatar, Buffer.from(getAvatar, 'utf-8'));
-oms = await this.circle(avatar);
-	fs.writeFileSync(pathImg, Buffer.from(getPorn, 'utf-8'));
-	let image = await loadImage(oms);
-	let baseImage = await loadImage(pathImg);
-	let canvas = createCanvas(baseImage.width, baseImage.height);
-	let ctx = canvas.getContext("2d");
-	ctx.drawImage(baseImage, 0, 0, canvas.width, canvas.height);
-	ctx.drawImage(image, 17, 17, 104, 104);
-	ctx.font = "696 32px Sans-Serif";
+    else uid = event.senderID;
+    const res = await api.getUserInfoV2(uid); 
+  let getAvatarOne = (await axios.get(`https://graph.facebook.com/${uid}/picture?height=1500&width=1500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`, { responseType: 'arraybuffer' })).data;
+  let bg = (
+    await axios.get(encodeURI(`https://i.ibb.co/xq3jLQm/Picsart-22-08-15-23-51-29-721.jpg`), {
+      responseType: "arraybuffer",
+    })
+  ).data;
+  fs.writeFileSync(pathAvata, Buffer.from(getAvatarOne, 'utf-8'));
+  avataruser = await this.circle(pathAvata);
+  fs.writeFileSync(pathImg, Buffer.from(bg, "utf-8"));
+
+/*-----------------download----------------------*/
+if(!fs.existsSync(__dirname+`${fonts}`)) { 
+      let getfont = (await axios.get(`${downfonts}`, { responseType: "arraybuffer" })).data;
+       fs.writeFileSync(__dirname+`${fonts}`, Buffer.from(getfont, "utf-8"));
+    };
+/*---------------------------------------------*/
+
+  let baseImage = await loadImage(pathImg);
+  let baseAvata = await loadImage(avataruser);
+  let canvas = createCanvas(baseImage.width, baseImage.height);
+  let ctx = canvas.getContext("2d");
+  ctx.drawImage(baseImage, 0, 0, canvas.width, canvas.height);
+  ctx.drawImage(baseAvata, 11, 8, 42, 42);
+  ctx.font = "400 18px Arial";
 	ctx.fillStyle = "#000000";
 	ctx.textAlign = "start";
-	ctx.fillText(res.name, 130, 55);
- /* ctx.font = "400 16px Arial";
-	ctx.fillStyle = "#BBC0C0";
-	ctx.textAlign = "start";
-	ctx.fillText(`@${res.name}`, 153, 99);*/
-	ctx.font = "400 45px Arial";
-	ctx.fillStyle = "#000000";
-	ctx.textAlign = "start";
-	let fontSize = 250;
-	while (ctx.measureText(text).width > 2600) {
+	let fontSize = 50;
+	while (ctx.measureText(text).width > 1200) {
 		fontSize--;
-		ctx.font = `500 ${fontSize}px Arial`;
+		ctx.font = `400 ${fontSize}px Arial`;
 	}
-	const lines = await this.wrapText(ctx, text, 650);
-	ctx.fillText(lines.join('\n'), 17, 180);
-	ctx.beginPath();
-	const imageBuffer = canvas.toBuffer();
-	fs.writeFileSync(pathImg, imageBuffer);
-	fs.removeSync(avatar);
-	return api.sendMessage({ attachment: fs.createReadStream(pathImg) }, threadID, () => fs.unlinkSync(pathImg), messageID);        
-                                  }
+	const lines = await this.wrapText(ctx, text, 470);
+	ctx.fillText(lines.join('\n'), 15,75);//comment
+  Canvas.registerFont(__dirname+`${fonts}`, {
+        family: "Play-Bold"
+    });
+  ctx.font = `bold 400 14px Arial, sans-serif`;
+  ctx.fillStyle = "#3A3B3C";
+  ctx.textAlign = "start";
+  fontSize = 5;
+  ctx.fillText(`${res.name}`, 58, 20);
+  ctx.font = `400 18px Arial`;
+  ctx.fillStyle = "#0000FF";
+  ctx.textAlign = "start";
+  fontSize = 50;  
+  while (ctx.measureText(text).width > 1200) {
+		fontSize--;
+		ctx.font = `400 ${fontSize}px Arial`;
+	}
+  ctx.beginPath();
+  const imageBuffer = canvas.toBuffer();
+  fs.writeFileSync(pathImg, imageBuffer);
+  fs.removeSync(pathAvata);
+  
+  return api.sendMessage({ attachment: fs.createReadStream(pathImg) }, threadID, () => fs.unlinkSync(pathImg), messageID); 
+};

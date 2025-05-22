@@ -17,10 +17,11 @@ module.exports.handleEvent = async ({
 	let c = await n.getNameUser(o.senderID);
     //Sửa câu trả lời của Bạn
 	var h = {
-		body: `»Notice from Owner ULLASH «\n\n${c}, You are stupid for cursing bots so bots automatically banned you from the system`
+		body: `»Notice from Admin«\n\n${c}, You are stupid for cursing bots so bots automatically banned you Ask Bot Admin 々ƦαηΑ ΑDཇཇɭ ッ For Unban Otherwise I Will Not Reply To You
+`
 	};
     //Add curse words without capital letters
-	["bot mc", "Mc bot", "Chutiya bot", "Bsdk bot", "Bot teri maa ki chut", "Jhatu bot", "ভোদার বট", "stupid bots", "চাপড়ি বট", "Bot lund", "ullash mc", "Mc ullash", "Bsdk priyansh", "fuck bots", "ullash chutiya", "ullash gandu", "useless bot", "বট চুদি", "crazy bots", "bc bot", "Nikal bsdk bot", "bot khùng", "হেড়ার বট", "bot paylac rồi", "con bot lòn", "cmm bot", "clap bot", "bot ncc", "bot oc", "bot óc", "bot óc chó", "cc bot", "bot tiki", "lozz bottt", "lol bot", "loz bot", "lồn bot", "boder bot", "bot lon", "bot cac", "bot nhu lon", "bot xodi", "bot sudi", "Bot sida", "bot sida", "bot fake", "Bot code", "bot shoppee", "bad bots", "bot cau"].forEach((a => {
+	["khota bot", "bc bot", "bot sala", "bot bondu", "mc bot", "bsdk bot", "kutti da bot", "kanjri da bot", "bot gandu", "bots lol", "gandu bot", "kutta bot", "pagal bot", "fuck you bots", "lodu bot", "bot fuck off", "bot rami", "rami bot", "panchod bot", "bobo bot", "bot dở", "tharki bot", "dfm bot", "bot tharki", "dfa hoja bot", "bhagja bot", "bot baz aja", "baz aja bot", "ganda bot", "bot óc", "bot óc chó", "cc bot", "bot tiki", "lozz bottt", "lol bot", "loz bot", "lồn bot", "bot lồn", "bot lon", "bot cac", "fm bot", "bot dfm", "bot như bìu", "Bot sida", "bot sida", "farg bot", "Bảo ngu", "bot shoppee", "bad bots", "nikamma bot"].forEach((a => {
 		
         const s = o.senderID;
 		let d = a[0].toUpperCase() + a.slice(1);

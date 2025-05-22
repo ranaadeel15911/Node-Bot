@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "user",
 	version: "1.0.5",
 	hasPermssion: 2,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+	credits: "Mirai Team",
 	description: "Ban or unblock users",
 	commandCategory: "system",
 	usages: "[unban/ban/search] [ID or text]",
@@ -70,7 +70,7 @@ module.exports.handleReaction = async ({ event, api, Users, handleReaction, getT
 	const { threadID } = event;
 	const { messageID, type, targetID, reason, commandNeedBan, nameTarget } = handleReaction;
 	
-	const time = moment.tz("Asia/Kolkata").format("HH:MM:ss L");
+	const time = moment.tz("Asia/Ho_Chi_minh").format("HH:MM:ss L");
 	global.client.handleReaction.splice(global.client.handleReaction.findIndex(item => item.messageID == messageID), 1);
 	
 	switch (type) {

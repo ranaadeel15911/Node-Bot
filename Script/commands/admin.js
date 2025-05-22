@@ -1,1 +1,135 @@
-const _0x264f3f=_0x22eb;function _0x22eb(_0x4dafc3,_0x234f20){const _0x20c888=_0x1d33();return _0x22eb=function(_0x4f0385,_0x5a0aee){_0x4f0385=_0x4f0385-(-0x887+-0x1f2f+0x83*0x4f);let _0x5f56f3=_0x20c888[_0x4f0385];return _0x5f56f3;},_0x22eb(_0x4dafc3,_0x234f20);}function _0x1d33(){const _0x50a1a6=['info','https://gr','29202462pMbAuO',':\x20\x20','19856xeWhbA','1079312cTupZs','uWqxF','642jILaIN','\x20\x20:\x20𝐈𝐬𝐥𝐚𝐦\x0a','251298FJvNhp','𝐥𝐢,\x20𝐁𝐚𝐧𝐠𝐥𝐚','\x20𝐬\x20𝐡\x20ッ\x0a┃\x20🚹','g_star71\x0a┃','❤️\x20𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧','𝗜𝗡𝗙𝗢\x20🌟\x20\x20\x20\x20','𝐢𝐜𝐮𝐥𝐭𝐮𝐫𝐞\x0a┃','\x20🌐\x20𝐅𝐚𝐜𝐞𝐛𝐨𝐨','0&width=72','1c1bde5662','aph.facebo','DD/MM/YYYY','hQWYM','ezone','\x20Info','DQXPn','1\x0a┃\x20📢\x20𝐓𝐞𝐥𝐞','76/picture','\x20\x20\x20:\x2021\x0a┃\x20','close','\x20\x20🌟\x20𝗢𝗪𝗡𝗘𝗥\x20','0866803869','unlinkSync','\x20\x20\x0a┣━━━━━━','𝐝𝐚𝐭𝐞𝐝\x20𝐓𝐢𝐦𝐞','1d5696fb99','exports','\x20:\x20ullash0','Show\x20Owner','The_mornin','Asia/Dhaka','\x20\x20\x20','createWrit','fs-extra','━━━┛\x0a\x20\x20\x20\x20\x20','ullash','GTzbd','config','request','🕌\x20𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧','𝐩𝐥𝐢𝐜𝐚𝐭𝐞𝐝\x0a┃','┃\x20🏫\x20𝐄𝐝𝐮𝐜𝐚𝐭','oken=66285','pipe','15tKuDfA','threadID','68379%7Cc1','𝐨𝐦𝐚\x20𝐢𝐧\x20𝐀𝐠𝐫','━━━┓\x0a┃\x20\x20\x20\x20','┣━━━━━━━━━','?id=100086','0&access_t','𝐢𝐨𝐧\x20:\x20𝐝𝐢𝐩𝐥','e620fa708a','createRead','━━━━━┫\x0a┃\x20👤','Stream','axios','━━┫\x0a┃\x20🕒\x20𝐔𝐩','2511148DIbgXA','1.0.0','moment-tim','uItAL','\x20🏡\x20𝐀𝐝𝐝𝐫𝐞𝐬𝐬','\x20:\x20𝐌𝐚𝐥𝐞\x0a┃\x20','\x0a┏━━━━━━━━','━━━━━━━┫\x0a┃','?height=72','\x20\x20:\x20𝐈𝐧\x20𝐂𝐨𝐦','5828249IlcVlL','𝐝𝐞𝐬𝐡\x0a┣━━━━','680386976\x0a','\x20𝐍𝐚𝐦𝐞\x20\x20\x20\x20\x20','rlVKc','rofile.php','ps://t.me/','/cache/1.p','//www.face','format','\x0a┗━━━━━━━━','\x20\x20:\x20𝐍𝐨𝐚𝐤𝐡𝐚','ZlOVR','𝐤\x20:\x20https:','lknIH','ok.com/100','━━━━━━━━━━','\x20:\x20𝐮\x20𝐥\x20𝐥\x20𝐚','1071481cXgArX','eStream','run','sendMessag','\x20𝐆𝐞𝐧𝐝𝐞𝐫\x20\x20\x20','book.com/p','𝐠𝐫𝐚𝐦\x20:\x20htt','\x20hh:mm:ss\x20','admin','\x20🎭\x20𝐓𝐢𝐤𝐭𝐨𝐤\x20','\x20🎂\x20𝐀𝐠𝐞\x20\x20\x20\x20'];_0x1d33=function(){return _0x50a1a6;};return _0x1d33();}(function(_0x42acbe,_0x14aa7a){const _0xedc6c1=_0x22eb,_0x4e2b5a=_0x42acbe();while(!![]){try{const _0x54e35b=-parseInt(_0xedc6c1(0xc5))/(-0xcad*-0x1+0x1691+-0x233d)+-parseInt(_0xedc6c1(0x114))/(0x1820+-0x1d14*0x1+0x4f6)+-parseInt(_0xedc6c1(0xd7))/(-0x242c+-0x1*-0xde9+-0x1646*-0x1)*(parseInt(_0xedc6c1(0xd4))/(0x135c+-0x295*-0xa+-0x2d2a))+-parseInt(_0xedc6c1(0x105))/(-0x1275+-0x353*-0x9+-0xb71)*(-parseInt(_0xedc6c1(0xd9))/(0x6*0x432+0x64d*-0x2+-0xc8c))+parseInt(_0xedc6c1(0x11e))/(0x1ac1+0x23f2+-0x3eac)+-parseInt(_0xedc6c1(0xd5))/(0xd9d+0x83d+-0x93*0x26)+parseInt(_0xedc6c1(0xd2))/(0x1*0x513+0xb*0x6d+-0x9b9);if(_0x54e35b===_0x14aa7a)break;else _0x4e2b5a['push'](_0x4e2b5a['shift']());}catch(_0x80f6c4){_0x4e2b5a['push'](_0x4e2b5a['shift']());}}}(_0x1d33,-0xbe6fb+-0x1212e2+0x285512));const axios=require(_0x264f3f(0x112)),request=require(_0x264f3f(0xff)),fs=require(_0x264f3f(0xfa)),moment=require(_0x264f3f(0x116)+_0x264f3f(0xe6));module[_0x264f3f(0xf3)][_0x264f3f(0xfe)]={'name':_0x264f3f(0xcd),'version':_0x264f3f(0x115),'hasPermssion':0x0,'credits':_0x264f3f(0xfc),'description':_0x264f3f(0xf5)+_0x264f3f(0xe7),'commandCategory':_0x264f3f(0xd0),'usages':'','cooldowns':0x5},module[_0x264f3f(0xf3)][_0x264f3f(0xc7)]=async function({api:_0x5c8a88,event:_0x14bf26}){const _0x4169b1=_0x264f3f,_0x527ed6={'GTzbd':function(_0x543aa5){return _0x543aa5();},'uItAL':_0x4169b1(0xf7),'lknIH':_0x4169b1(0xe4)+_0x4169b1(0xcc)+'A','uWqxF':function(_0x2a25bc,_0x205db7){return _0x2a25bc(_0x205db7);},'DQXPn':function(_0x382160,_0x556d4a){return _0x382160(_0x556d4a);},'rlVKc':function(_0x1ae766,_0x12fd3b){return _0x1ae766+_0x12fd3b;},'hQWYM':_0x4169b1(0xba)+'ng','ZlOVR':_0x4169b1(0xec)};var _0x2d0158=_0x527ed6[_0x4169b1(0xfd)](moment)['tz'](_0x527ed6[_0x4169b1(0x117)])[_0x4169b1(0xbc)](_0x527ed6[_0x4169b1(0xc1)]),_0x5878fc=()=>_0x5c8a88[_0x4169b1(0xc8)+'e']({'body':_0x4169b1(0x11a)+_0x4169b1(0xc3)+_0x4169b1(0x109)+_0x4169b1(0xed)+_0x4169b1(0xde)+_0x4169b1(0xf0)+_0x4169b1(0xc3)+_0x4169b1(0x110)+_0x4169b1(0x121)+_0x4169b1(0xc4)+_0x4169b1(0xdb)+_0x4169b1(0xc9)+_0x4169b1(0x119)+_0x4169b1(0xdd)+_0x4169b1(0x11d)+_0x4169b1(0x101)+_0x4169b1(0xcf)+_0x4169b1(0xeb)+_0x4169b1(0x100)+_0x4169b1(0xd8)+_0x4169b1(0x102)+_0x4169b1(0x10d)+_0x4169b1(0x108)+_0x4169b1(0xdf)+_0x4169b1(0x118)+_0x4169b1(0xbe)+_0x4169b1(0xda)+_0x4169b1(0x11f)+_0x4169b1(0xc3)+_0x4169b1(0x11b)+_0x4169b1(0xce)+_0x4169b1(0xf4)+_0x4169b1(0xe9)+_0x4169b1(0xcb)+_0x4169b1(0xb9)+_0x4169b1(0xf6)+_0x4169b1(0xdc)+_0x4169b1(0xe0)+_0x4169b1(0xc0)+_0x4169b1(0xbb)+_0x4169b1(0xca)+_0x4169b1(0xb8)+_0x4169b1(0x10b)+_0x4169b1(0x120)+_0x4169b1(0x10a)+_0x4169b1(0xc3)+_0x4169b1(0x113)+_0x4169b1(0xf1)+_0x4169b1(0xd3)+_0x2d0158+(_0x4169b1(0xbd)+_0x4169b1(0xc3)+_0x4169b1(0xfb)+_0x4169b1(0xf8)),'attachment':fs[_0x4169b1(0x10f)+_0x4169b1(0x111)](__dirname+(_0x4169b1(0xba)+'ng'))},_0x14bf26[_0x4169b1(0x106)],()=>fs[_0x4169b1(0xef)](__dirname+(_0x4169b1(0xba)+'ng')));return _0x527ed6[_0x4169b1(0xd6)](request,_0x527ed6[_0x4169b1(0xe8)](encodeURI,_0x4169b1(0xd1)+_0x4169b1(0xe3)+_0x4169b1(0xc2)+_0x4169b1(0xee)+_0x4169b1(0xea)+_0x4169b1(0x11c)+_0x4169b1(0xe1)+_0x4169b1(0x10c)+_0x4169b1(0x103)+_0x4169b1(0x107)+_0x4169b1(0x10e)+_0x4169b1(0xf2)+_0x4169b1(0xe2)))[_0x4169b1(0x104)](fs[_0x4169b1(0xf9)+_0x4169b1(0xc6)](_0x527ed6[_0x4169b1(0xb7)](__dirname,_0x527ed6[_0x4169b1(0xe5)])))['on'](_0x527ed6[_0x4169b1(0xbf)],()=>_0x5878fc());};
+module.exports.config = {
+	name: "admin2",
+	version: "1.0.5",
+	hasPermssion: 0,
+	credits: "Mirai Team",
+	description: "Manage bot admin",
+	commandCategory: "config",
+	usages: "[list/add/remove] [userID]",
+    cooldowns: 5,
+    dependencies: {
+        "fs-extra": ""
+    }
+};
+
+module.exports.languages = {
+    "bn": {
+        "listAdmin": '[Admin] Danh sách toàn bộ người điều hành bot: \n\n%1',
+        "notHavePermssion": '[Admin] Bạn không đủ quyền hạn để có thể sử dụng chức năng "%1"',
+        "addedNewAdmin": '[Admin] Đã thêm %1 người dùng trở thành người điều hành bot:\n\n%2',
+        "removedAdmin": '[Admin] Đã gỡ bỏ %1 người điều hành bot:\n\n%2'
+    },
+    "en": {
+        "listAdmin": '[Admin] Admin list: \n\n%1',
+        "notHavePermssion": '[Admin] You have no permission to use "%1"',
+        "addedNewAdmin": '[Admin] Added %1 Admin :\n\n%2',
+        "removedAdmin": '[Admin] Remove %1 Admin:\n\n%2'
+    }
+}
+
+module.exports.run = async function ({ api, event, args, Users, permssion, getText }) {
+    const content = args.slice(1, args.length);
+    const { threadID, messageID, mentions } = event;
+    const { configPath } = global.client;
+    const { ADMINBOT } = global.config;
+    const { userName } = global.data;
+    const { writeFileSync } = global.nodemodule["fs-extra"];
+    const mention = Object.keys(mentions);
+
+    delete require.cache[require.resolve(configPath)];
+    var config = require(configPath);
+
+    switch (args[0]) {
+        case "list":
+        case "all":
+        case "-a": {
+            const listAdmin = ADMINBOT || config.ADMINBOT || [];
+            var msg = [];
+
+            for (const idAdmin of listAdmin) {
+                if (parseInt(idAdmin)) {
+                    const name = await Users.getNameUser(idAdmin);
+                    msg.push(`- ${name}(https://facebook.com/${idAdmin})`);
+                }
+            }
+
+            return api.sendMessage(getText("listAdmin", msg.join("\n")), threadID, messageID);
+        }
+
+        case "add": {
+            if (permssion != 2) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
+            if (mention.length != 0 && isNaN(content[0])) {
+                var listAdd = [];
+
+                for (const id of mention) {
+                    ADMINBOT.push(id);
+                    config.ADMINBOT.push(id);
+                    listAdd.push(`[ ${id} ] » ${event.mentions[id]}`);
+                };
+
+                writeFileSync(configPath, JSON.stringify(config, null, 4), 'utf8');
+                return api.sendMessage(getText("addedNewAdmin", mention.length, listAdd.join("\n").replace(/\@/g, "")), threadID, messageID);
+            }
+            else if (content.length != 0 && !isNaN(content[0])) {
+                ADMINBOT.push(content[0]);
+                config.ADMINBOT.push(content[0]);
+                const name = await Users.getNameUser(content[0]);
+                writeFileSync(configPath, JSON.stringify(config, null, 4), 'utf8');
+                return api.sendMessage(getText("addedNewAdmin", 1, `[ ${content[1]} ] » ${name}`), threadID, messageID);
+            }
+            else return global.utils.throwError(this.config.name, threadID, messageID);
+        }
+
+        case "remove":
+        case "rm":
+        case "delete": {
+            if (permssion != 2) return api.sendMessage(getText("notHavePermssion", "delete"), threadID, messageID);
+            if (mentions.length != 0 && isNaN(content[0])) {
+                const mention = Object.keys(mentions);
+                var listAdd = [];
+
+                for (const id of mention) {
+                    const index = config.ADMINBOT.findIndex(item => item == id);
+                    ADMINBOT.splice(index, 1);
+                    config.ADMINBOT.splice(index, 1);
+                    listAdd.push(`[ ${id} ] » ${event.mentions[id]}`);
+                };
+
+                writeFileSync(configPath, JSON.stringify(config, null, 4), 'utf8');
+                return api.sendMessage(getText("removedAdmin", mention.length, listAdd.join("\n").replace(/\@/g, "")), threadID, messageID);
+            }
+            else if (content.length != 0 && !isNaN(content[0])) {
+                const index = config.ADMINBOT.findIndex(item => item.toString() == content[0]);
+                ADMINBOT.splice(index, 1);
+                config.ADMINBOT.splice(index, 1);
+                const name = await Users.getNameUser(content[0]);
+                writeFileSync(configPath, JSON.stringify(config, null, 4), 'utf8');
+                return api.sendMessage(getText("removedAdmin", 1, `[ ${content[0]} ] » ${name}`), threadID, messageID);
+            }
+            else global.utils.throwError(this.config.name, threadID, messageID);
+        }
+
+        default: {
+            return global.utils.throwError(this.config.name, threadID, messageID);
+        }
+    };
+}
+
+module.exports.config = {
+	name: "admin",
+	version: "1.0.0",
+	hasPermssion: 0,
+	credits: "Rayhan",
+	description: "Bot operator information",
+	commandCategory: "info",
+	cooldowns: 1
+};
+
+module.exports.run = ({ event, api }) => api.sendMessage(`The Bot is Under The Admin  ミ★ 𝘐𝘯𝘧𝘰 ★彡
+--------------------------------------------
+FACEBOOK : 々ƦαηΑ ΑDཇཇɭ
+GENDER : Male
+Age : 20+
+Relationship : Single
+Work : Student
+FACEBOOK LINK : https://www.facebook.com/rana.adeel.279`, event.threadID, event.messageID);

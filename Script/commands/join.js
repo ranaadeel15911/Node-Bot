@@ -2,8 +2,8 @@ const chalk = require('chalk');
 module.exports.config = {
     name: "join",
     version: "1.0.1",
-    hasPermssion: 2,
-    credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+    hasPermssion: 3,
+    credits: "Henry",
     description: "Join the Bot boxes are in",
     commandCategory: "System",
     usages: "",

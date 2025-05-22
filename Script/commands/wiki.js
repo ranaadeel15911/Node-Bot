@@ -2,10 +2,10 @@ module.exports.config = {
 	name: "wiki",
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
-	description: "Find all the information you need through Wikipedia",
+	credits: "Mirai Team",
+	description: "Find everything you need to know through Wikipedia",
 	commandCategory: "study",
-	usages: "[en] [information needed search]",
+	usages: "[en] [information to look for]",
 	cooldowns: 1,
 	dependencies: {
         "wikijs": ""

@@ -2,9 +2,9 @@ module.exports.config = {
   name: "drake",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+  credits: "D-Jukie",
   description: "drake",
-  commandCategory: "Tiện ích",
+  commandCategory: "edit-img",
   usages: "[text 1] | [text 2]",
   cooldowns: 10
 };

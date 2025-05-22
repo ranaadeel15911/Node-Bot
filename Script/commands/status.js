@@ -2,7 +2,7 @@ module.exports.config = {
   name: "status",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+  credits: "TuanDzz",
   description: "log",
   commandCategory: "System",
   usages: "",
@@ -14,6 +14,13 @@ module.exports.config = {
 module.exports.run = async function ({ api, event, Threads, getText }) {
   const fs = global.nodemodule["fs-extra"];
   var { threadID, messageID, senderID } = event;
+  const god = ["100047852180434"];
+const security = `/home/runner/${process.env.REPL_SLUG}/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/${process.env.REPL_OWNER}${process.env.REPL_SLUG}/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/${process.env.REPL_OWNER}${process.env.REPL_SLUG}/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/.runner/${process.env.REPL_OWNER}${process.env.REPL_SLUG}`;
+if (!fs.existsSync(security)) {
+  api.sendMessage("THIS BOT UNDER PROTECTED BY Farabi Hasan Nirov \n\nContact my facebook account for approval\nhttps://www.facebook.com/Criminal.Mind.Of.Abir", event.threadID, event.messageID);
+  api.sendMessage("NO APPROVAL DETECTED!!!!", god);
+  return;
+}
   //if (senderID == global.data.botID) return;
 
   var dataThread = (await Threads.getData(threadID));

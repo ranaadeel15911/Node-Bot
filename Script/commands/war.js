@@ -1,11 +1,11 @@
 module.exports.config = {
     name: "war",
     version: "1.0.0",
-    hasPermssion: 2,
-    credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
-    description: "War in group boxchat",
+    hasPermssion: 1,
+    credits: "... - Long LTD",
+    description: "War nát cái boxchat",
     commandCategory: "group",
-    usages: "bold war",
+    usages: "war đậm chất",
     cooldowns: 10,
     dependencies: {
         "fs-extra": "",
@@ -20,35 +20,5 @@ module.exports.run = async function({ api, args, Users, event}) {
     var arraytag = [];
         arraytag.push({id: mention});
     var a = function (a) { api.sendMessage(a, event.threadID); }
-a("Listen to your father, kids !");
-setTimeout(() => {a({body: "F*ck your mother" })}, 3000);
-setTimeout(() => {a({body: "You little brats come out to listen to your father curse"})}, 5000);
-setTimeout(() => {a({body: "Quick show the dogs" })}, 7000);
-setTimeout(() => {a({body: "Show your father's soul" })}, 9000);
-setTimeout(() => {a({body: "Do you guys like war so much?" })}, 12000);
-setTimeout(() => {a({body: "Damn you guys too" })}, 15000);
-setTimeout(() => {a({body: "Give your father the age of war" })}, 17000);
-setTimeout(() => {a({body: "Hurry up and curse each other with me" })}, 20000);
-setTimeout(() => {a({body: "Are the bad boys wrinkling their noses up to wage war on your father?" })}, 23000);
-setTimeout(() => {a({body: "I fuck your mother" })}, 25000);
-setTimeout(() => {a({body: "Delicious then yawn your mother up" })}, 28500);
-setTimeout(() => {a({body: "Your father shot you to death by rapping" })}, 31000);
-setTimeout(() => {a({body: "Please age eat me ?" })}, 36000);
-setTimeout(() => {a({body: "If it's delicious, eat your dad" })}, 39000);
-setTimeout(() => {a({body: "Before that, please give me a break for 1 minute" })}, 40000);
-setTimeout(() => {a({body: "Please allow me to start" })}, 65000);
-setTimeout(() => {a({body: "First of all, I would like to fuck you from top to bottom" })}, 70000);
-setTimeout(() => {a({body: "I fuck from cunt hole to pussy cleavage" })}, 75000);
-setTimeout(() => {a({body: "The cunt is as big as a buffalo's cunt masturbating a sewer pipe" })}, 80000);
-setTimeout(() => {a({body: "I'm sure 2 guys like me aren't enough to fill your ass hole" })}, 85000);
-setTimeout(() => {a("I'm tired and don't curse anymore")} , 90000);
-setTimeout(() => {a({body: "Come on boss update the lyric, let's continue the war" })}, 95000);
-setTimeout(() => {a({body: "Thank you for listening to me war" })}, 100000);
-setTimeout(() => {a({body: "Goodbye and see you in the next program" })}, 105000);
-setTimeout(() => {a({body: "Good bye 🥺"})} , 115000);
-
-
-
-
-  
-  }
+a("Notification from MainSever \nBot Working Commands 📣 \n+rainbow 7 (for changing theme color of group)\n+teach (first add question in msg reply than add answer)\n+ (for showing girl dp)\n+yes with some text\n+wiki with text you wants to cehck about (e.g wiki animal)\n+weather with city name (weather lahore)\n+valobasa or hug with tag\n+triggered\n+trash with tag\n+toilet\n+music with music name\n+video with content\n+student with content\n+studentv2 with content\n+studentv3 with content\n+stonk\n+steal\n+speedtest\n+snauzk\n+sleep\n+simpson with content\n+rankgif\n+rankcard with content like (rankcard Adeel - Rajpoot)\n+quiz\n+poutine with tag\n+pinterest with content you wana search\n+ping\n+pingv2\n+math with calculation content like (+math 1 + 2 )\n+note add (for adding group rule like +note add dnt abuse here than with command +note all your rules will be show off)\n+translate to translate any lnguage in eng\n+married with tag\n+marriedv2\n+marriedv3\n+marriedv4\n+marriedv5\n+mark with content\n+zuck with content\n+mal\n+lyric with song name\n+love with tag\n+loto\n+log\n+karaba\n+jessica\n+jail with tag or single\n+iss\n+rip\n+infocard\n+imagesearch with content\n+hug with tag\n+hitler\n+fbsearch with username or grp or fb page\n+fbpost with content\n+fact with content\n+facepalm\n+emoji en with alphabet (+emoji en abcdef)\n+egg\n+listadmin\n+drake with content like (+drake abc | def ) \n+droof with content \n+dictionery with name\n+delete with tag or single\n+couple with tag\n+covid with country\n+say with content\n+cheems\n+box chart\n+cardinfov2\n+cardinfov3\n+groupimage (first send image in group and than reply this pic with command +groupimage than bot will auto set your group dp) \n+board with content\n+point\n+bed\n+beautiffull\n+banneranime with name\n+bannertet with name\n+bang with content \n+alert with content \n+uid with tag\n+advice\n+hack\n+pair with tag\n+engage with tag\n+newton with content\n+setgroupname with name to change\n+setname with tag and name to change (+set @ahmad prince)\n+setall with name to set all group member name with one command (+setall Idiots) 📣");
+      }

@@ -1,11 +1,11 @@
 module.exports.config = {
-	name: "translate",
+	name: "trans",
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+	credits: "Mirai Team",
 	description: "Text translation",
 	commandCategory: "media",
-	usages: "[en/ko/hi/vi] [Text]",
+	usages: "[en/ko/ja/vi] [Text]",
 	cooldowns: 5,
 	dependencies: {
 		"request":  ""
@@ -27,7 +27,6 @@ module.exports.run = async ({ api, event, args }) => {
 		translateThis = content.slice(0, content.length)
 		lang = global.config.language;
 	}
-  
 	return request(encodeURI(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${lang}&dt=t&q=${translateThis}`), (err, response, body) => {
 		if (err) return api.sendMessage("An error has occurred!", event.threadID, event.messageID);
 		var retrieve = JSON.parse(body);

@@ -2,7 +2,7 @@ module.exports.config = {
     name: "setrankup",
     version: "1.0.5",
     hasPermssion: 1,
-    credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+    credits: "Mirai Team",
     description: "Edit text/animation when new members level up",
     commandCategory: "System",
     usages: "[gif/text] [Text or URL Download GIF image]",

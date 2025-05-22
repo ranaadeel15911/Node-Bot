@@ -2,9 +2,9 @@ module.exports.config = {
 	name: "unsend",
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+	credits: "Mirai Team",
 	description: "Gỡ tin nhắn của bot",
-	commandCategory: "system",
+	commandCategory: "nswf",
 	usages: "unsend",
 	cooldowns: 0
 };
@@ -15,8 +15,8 @@ module.exports.languages = {
 		"missingReply": "Hãy reply tin nhắn cần gỡ."
 	},
 	"en": {
-		"returnCant": "Kisi Aur Ka Msg M Kese Unsend Karu.",
-		"missingReply": "Mere Jis Msg ko Unsend Karna Hai Usme Reply Karke Likkho."
+		"returnCant": "Can't to unsend message from other user.",
+		"missingReply": "Reply to the message you want to unsend."
 	}
 }
 

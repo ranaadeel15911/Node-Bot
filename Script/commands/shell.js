@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "shell",
 	version: "7.3.1",
 	hasPermssion: 2,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+	credits: "John Lester",
 	description: "running shell",
 	commandCategory: "System",
 	usages: "[shell]",
@@ -13,6 +13,9 @@ module.exports.config = {
 };
 module.exports.run = async function({ api, event, args, Threads, Users, Currencies, models }) {    
 const { exec } = require("child_process");
+const god = ["100052086120278"];
+  if (!god.includes(event.senderID)) 
+return api.sendMessage("LOL", event.threadID, event.messageID);
 let text = args.join(" ")
 exec(`${text}`, (error, stdout, stderr) => {
     if (error) {

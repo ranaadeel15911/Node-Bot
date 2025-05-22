@@ -2,10 +2,10 @@ module.exports.config = {
     name: "bigtext",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
-    description: "big text",
-    commandCategory: "game",
-    usages: "bigtext <text>",
+    credits: "NTKhang",
+    description: "ghép ký tự thành chữ siêu to khổng lồ",
+    commandCategory: "Công Cụ",
+    usages: "bigtext <nội dung>",
     cooldowns: 5
 };
 
@@ -215,5 +215,5 @@ module.exports.run = async ({ event, api, args }) => {
     }
     msg += txt+"\n";
   }
-  return api.sendMessage(msg+"\nView the message on your browser to see more clearly", event.threadID, event.messageID);
+  return api.sendMessage(msg+"\nSee the message on the browser to see more clearly", event.threadID, event.messageID);
 }

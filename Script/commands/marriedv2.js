@@ -2,7 +2,7 @@ module.exports.config = {
     name: "marriedv2",
     version: "3.1.1",
     hasPermssion: 0,
-    credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+    credits: "John Lester",
     description: "married",
     commandCategory: "img",
     usages: "[@mention]",

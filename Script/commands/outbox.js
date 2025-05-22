@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "outbox",
 	version: "1.0.6",
 	hasPermssion: 2,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+	credits: "CatalizCS",
 	description: "Automatic Outbox after the time period has requested!",
 	commandCategory: "system",
     dependencies: {
@@ -56,7 +56,7 @@ module.exports.handleReply = ({ event, api, handleReply }) => {
         }
 
         case "inputTime": {
-            const time = moment().tz("Asia/Dhaka");
+            const time = moment().tz("Asia/Ho_Chi_minh");
             const regex = /([0-9]|0[0-9]|1[0-9]|2[0-3]):([0-9]|[0-5][0-9])$/;
 
             if (!regex.test(event.body)) return api.sendMessage(`[Outbox] Format time incorrectly!`, event.threadID, event.messageID);

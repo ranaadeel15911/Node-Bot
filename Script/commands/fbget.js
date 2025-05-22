@@ -2,7 +2,7 @@ module.exports.config = {
     name: "fbget",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+    credits: "Zera",
     description: "Download video or record from fb",
   commandCategory: "utilities",
   usages: "audio/video [link]",
@@ -17,7 +17,7 @@ try {
             
     setTimeout(() => {
         api.unsendMessage(info.messageID) } , 20000),event.messageID);
-        const path = __dirname+`/cache/2.mp3`;
+        const path = __dirname+`/data/2.mp3`;
  let getPorn = (await axios.get(event.attachments[0].playableUrl,{ responseType:'arraybuffer'} )).data;
   fs.writeFileSync(path, Buffer.from(getPorn, "utf-8"));
 return api.sendMessage({body : `Loaded success🥱`, 
@@ -31,7 +31,7 @@ return api.sendMessage({body : `Loaded success🥱`,
 
     setTimeout(() => {
         api.unsendMessage(info.messageID) } , 20000),event.messageID);
-            const path1 = __dirname+`/cache/1.mp4`;
+            const path1 = __dirname+`/data/1.mp4`;
  let getPorn = (await axios.get(event.attachments[0].playableUrl,{ responseType:'arraybuffer'} )).data;
   fs.writeFileSync(path1, Buffer.from(getPorn, "utf-8"));
 return api.sendMessage({body : `Loaded success🥱`, 

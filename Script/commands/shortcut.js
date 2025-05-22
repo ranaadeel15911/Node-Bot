@@ -1,10 +1,10 @@
 module.exports.config = {
-	name: "shortcut",
+	name: "teach",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
+	credits: "Mirai Team",
 	description: "",
-	commandCategory: "system",
+	commandCategory: "Only Admin",
     usages: "[all/delete/empty]",
 	cooldowns: 5,
 	dependencies: {
@@ -15,24 +15,24 @@ module.exports.config = {
 
 module.exports.languages = {
     "vi": {
-        "misingKeyword": "「Shortcut」từ khóa nhận diện không được để trống!",
-        "shortcutExist": "「Shortcut」Input đã tồn tại từ trước!",
-        "requestResponse": "「Shortcut」Reply tin nhắn này để nhập câu trả lời khi sử dụng từ khóa",
-        "addSuccess": "「Shortcut」Đã thêm thành công shortcut mới, dươi đây là phần tổng quát:\n- ID:%1\n- Input: %2\n- Output: %3",
-        "listShortcutNull": "「Shortcut」hiện tại nhóm của bạn chưa có shortcut nào được set!",
-        "removeSuccess": "「Shortcut」Đã xóa thành công!",
-        "returnListShortcut": "「Shortcut」Dưới đây là toàn bộ shortcut nhóm có:\n[stt]/ [Input] => [Output]\n\n%1",
-        "requestKeyword": "「Shortcut」Reply tin nhắn này để nhập từ khóa cho shortcut"
+        "misingKeyword": "「teach」từ khóa nhận diện không được để trống!",
+        "shortcutExist": "「teach」Input đã tồn tại từ trước!",
+        "requestResponse": "「teach」Reply tin nhắn này để nhập câu trả lời khi sử dụng từ khóa",
+        "addSuccess": "「teach」Đã thêm thành công shortcut mới, dươi đây là phần tổng quát:\n- ID:%1\n- Input: %2\n- Output: %3",
+        "listShortcutNull": "「teach」hiện tại nhóm của bạn chưa có shortcut nào được set!",
+        "removeSuccess": "「teach」Đã xóa thành công!",
+        "returnListShortcut": "「teach」Dưới đây là toàn bộ shortcut nhóm có:\n[stt]/ [Input] => [Output]\n\n%1",
+        "requestKeyword": "「teach」Reply tin nhắn này để nhập từ khóa cho shortcut"
     },
     "en": {
-        "misingKeyword": "「Shortcut」Keyword must not be blank!",
-        "shortcutExist": "「Shortcut」Input has already existed!",
-        "requestResponse": "「Shortcut」Reply this message to import the answer when use keyword",
-        "addSuccess": "「Shortcut」Added new shortcut, here is result:\n- ID:%1\n- Input: %2\n- Output: %3",
-        "listShortcutNull": "「Shortcut」Your thread have no shortcut!",
-        "removeSuccess": "「Shortcut」Removed shortcut!",
-        "returnListShortcut": "「Shortcut」These are shortcuts of this thread:\n[stt]/ [Input] => [Output]\n\n%1",
-        "requestKeyword": "「Shortcut」Reply this message to import keyword for shortcut"
+        "misingKeyword": "「teach」Keyword must not be blank!",
+        "shortcutExist": "「teach」Input has already existed!",
+        "requestResponse": "「teach」Reply this message to import answer of that question",
+        "addSuccess": "「teach」Added new teach, here is result:\n- ID:%1\n- Now if any one will say: %2\n- Bot reply will be: %3",
+        "listShortcutNull": "「teach」Your thread have no shortcut!",
+        "removeSuccess": "「teach」Removed shortcut!",
+        "returnListShortcut": "「teach」These are shortcuts of this thread:\n[stt]/ [Input] => [Output]\n\n%1",
+        "requestKeyword": "「teach」Reply this message to import question you wants to teach"
     }
 }
 
